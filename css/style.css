@@ -1,0 +1,282 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("fonts/BebasNeue-Regular.ttf");
+
+    font-family: "netflix";
+    src: url("fonts/NetflixSansRegular.ttf");
+}
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.img {
+    margin-top: 0px;
+}
+
+.defaul{
+    font-family: "netflix";
+}
+
+.main-section {
+    max-width: 88px;
+    display: flex;
+    flex-direction: row;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column wrap;
+    gap: 58px;
+    width: 88px;
+    height: 100%;
+    background-color: #0D0D0D;
+}
+
+.princi {
+    display: flex;
+    flex-direction: column wrap;
+}
+
+.section-button {
+    margin-top: 273px;
+    width: 88px;
+    height: 1576px;
+}
+
+.logo-row {
+    position: absolute;
+    display: flex;
+    flex-direction: row;    
+}
+
+.logo {
+    margin-left: 94px;
+    align-content: center;
+    width: 56px;
+    height: 56px;
+    margin-top: 56px;
+}
+
+.main-title{
+    display: flex;
+    max-width: 300px;
+    flex-direction: row;
+}
+
+.h1color {
+    color: white;
+    margin-top: 122px;
+    margin-left: 108px;
+    font-size: 56px;
+
+}
+.h3s {
+    margin-top: 72px;
+    font-weight: 400px;
+    padding-left: 7px;
+    font-size: 28px;
+    color: white;
+    max-height: 30px;
+    line-height: 36px;
+    letter-spacing: 10px;
+}
+
+.info-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    max-height: 18px;
+    margin-top: 188px;
+    margin-left: 108px;
+}
+
+.relevancia {
+    color: #41C462;
+    font-size: 15.12px;
+    font-family: netflix;
+    line-height: 19px;
+    width: 93px;
+}
+
+.ano {
+    color: white;
+    margin-left: 8px;
+    font-size: 15.12px;
+    line-height: 19px;
+}
+
+.tv-ma {
+    text-align:center;
+    color: #A6A6A6;
+    margin-left: 8px;
+    width: 54px;
+    height: 22px;
+    padding-top: 3px;
+    background-color: #333333;
+    border: solid 2px black;
+    border-radius: 3px;
+    line-height: 15px;
+}
+
+.seasons {
+    margin-left: 7px;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.tlb {
+    padding-top: 5px;
+    line-height: 15px;
+    text-align: center;
+    width: 28px;
+    height: 26px;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-left: 9px;
+    font-family: Arial;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #A6A6A6;
+}
+
+.h3t {
+    color: white;
+    margin-top: 225px;
+    margin-left: 20px;
+    width: 230px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+.sla {
+    max-height: 260px;
+    margin-left: 88px;
+    position: absolute;
+}
+.paragrafo1 {
+    position: absolute;
+    color: white;
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 29px;
+    width: 800px;
+    height: 130px;
+    margin-top: 277px;
+    margin-left: 20px;
+
+}
+.lisp {
+    position: absolute;
+    display: flex;
+    flex-direction:row;
+    width: 500px;
+}
+
+.lis {
+    margin-top: 430px;
+    width: 600px;
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 29px;
+    list-style: circle;
+    margin-left: 24px;
+    border: 1px solid #000000;
+}
+
+.lis1 {
+    margin-top: 430px;
+    width: 600px;
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 29px;
+    margin-left: 110px;
+    border: 1px solid #000000; 
+}
+
+.figure {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 108px;
+}
+
+.figure2 {
+    position: absolute;
+    margin-top: 502px;
+    margin-left: 448px;
+}
+
+.h2t {
+    position: absolute;
+    color: white;
+    margin-top: 600px;
+    margin-left: 108px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    text-transform: capitalize;
+}
+
+.grid1 {
+    grid-template-columns: repeat(6, 300px);
+    display: flex;
+    max-height: 300px;
+    margin-top: 650px;
+    position: absolute;
+    gap: 10px;
+}
+
+.darling {
+  margin-left: 108px;
+}
+
+.h2t2 {
+    position: absolute;
+    margin-top: 882px;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    margin-left: 108px;
+}
+
+.grid2 {
+    display: flex;
+    position: absolute;
+    grid-template-columns: repeat(6, 300px);
+    max-height: 300px;
+    margin-top: 938px;
+    gap: 10px;
+}
+
+.kimi {
+    margin-left: 108px;
+}
+
+.netflixo {
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 1550px;
+}
